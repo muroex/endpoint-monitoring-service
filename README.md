@@ -10,8 +10,6 @@ git clone https://github.com/muroex/endpoint-monitoring-service.git
 docker compose up --build
 ```
 
-That's all! :sunglasses:
-
 ## Specifications
 The service is written in Java 11 with Spring Boot framework and MySQL database.
 ## REST Endpoint list
