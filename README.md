@@ -18,8 +18,8 @@ The service is written in Java 11 with Spring Boot framework and MySQL database.
 The API runs on http://localhost:8080/. To use the service, you need to add a custom HTTP header: `accessToken`. Available UUIDs are:
 |      <b>Header name</b>     | <b>Header value</b> |
 |:-----------------------:|:------:|
-|        `accessToken`       |   07618a19-b17c-4437-8619-505af0f6906d  |
-|     `accessToken`     |   0c360165-b418-4caa-acea-92be46dc15a0  |
+|        `accessToken`       |  93f39e2f-80de-4033-99ee-249d92736a25  |
+|     `accessToken`     |   dcb20f8a-5657-4f1b-9f7f-ce65739b359e  |
 
 Available REST endpoints and methods are listed below:
 
