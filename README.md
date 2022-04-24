@@ -25,9 +25,9 @@ Available REST endpoints and methods are listed below:
 
 |      <b>Address</b>     | <b>Method</b> |                                     <b>Description</b>                                                   |
 |:-----------------------:|:------:|:---------------------------------------------------------------------------------------------------------------:|
-|        /api/v1/monitoredEndpoint`       |   GET  |                                     Gets the list of all recorded endpoints.                                    |
+|        `/api/v1/monitoredEndpoint`       |   GET  |                                     Gets the list of all recorded endpoints.                                    |
 |     `/api/v1/monitoredEndpoint/{id}`     |   GET  |        Gets an endpoint by selected id. If the user token is wrong, the user won't get the endpoint data.       |
 | `/api/v1/monitoredEndpoint/{id}/results` |   GET  | Gets 10 recent results for selected endpoint. If the user token is wrong, the user won't get the endpoint data. |
 |     `/api/v1/monitoredEndpoint/{id}`     |   PUT  |            Updates selected endpoint. If the user token is wrong, the endpoint data won't be updated.           |
-|        /api/v1/monitoredEndpoint`       |  POST  |                                               Adds a new endpoint.                                              |
+|        `/api/v1/monitoredEndpoint`       |  POST  |                                               Adds a new endpoint.                                              |
 |     `/api/v1/monitoredEndpoint/{id}`     | DELETE |       Deletes selected endpoint by its id. If the user token is wrong, the endpoint data won't be deleted.      |
